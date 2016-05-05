@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">MOVIE APP </string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Splash">Welcome</string>
+    <string name="refreh">Refresh</string>
+    <string name="action_refresh">Popular</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="text" >
+        :layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            :layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/detail_movie_overview"
+            android:textStyle="italic"
+            </string>
+    <string name="fav">Favourite</string>
+
+</resources>

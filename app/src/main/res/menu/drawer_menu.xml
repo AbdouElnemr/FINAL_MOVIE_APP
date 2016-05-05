@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+        <item
+            android:id="@+id/message_id"
+            android:title="Details"
+            android:icon="@drawable/details"
+            />
+
+    </group>
+    <item android:title="Our Infarmation " >
+        <menu>
+            <item
+                android:id="@+id/linkedin"
+                android:title="Linked In"
+                android:icon="@drawable/linkedin"
+                />
+            <item
+                android:id="@+id/facebook"
+                android:title="Facebook"
+                android:icon="@drawable/facebook"
+                />
+            <item
+                android:id="@+id/gmail"
+                android:title="GMail"
+                android:icon="@drawable/gmail"
+                />
+
+        </menu>
+
+    </item>
+</menu>
